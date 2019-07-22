@@ -2,7 +2,11 @@ body {
   background: linear-gradient(to right, yellow , red);
 }
 
-h1 {
+p {
+  font-size: 14px;
+}
+
+h1, #csscode {
   text-align: center;
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -19,14 +23,15 @@ input {
 }
 
 .card {
-  background-color: black;
+  /* background: white; */
+  border: 5px solid white;
   position: absolute;
   top: 50%;
-  margin-top: -110px;
+  margin-top: -125px;
   left: 50%;
   margin-left: -150px;
   width: 300px;
-  height: 220px;
+  height: 250px;
 }
 
 .center {
