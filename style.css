@@ -4,6 +4,7 @@ body {
 
 h1 {
   text-align: center;
+  color: white;
 }
 
 .color-pickers {
@@ -14,4 +15,19 @@ h1 {
 
 input {
   margin: 10px;
+}
+
+.card {
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  margin-top: -110px;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
+  height: 220px;
+}
+
+.center {
+  text-align: center;
 }
