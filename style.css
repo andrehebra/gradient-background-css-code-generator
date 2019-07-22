@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(to right, yellow , red);
+}
+
+h1 {
+  text-align: center;
+}
+
+.color-pickers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+input {
+  margin: 10px;
+}
