@@ -9,7 +9,6 @@ var cssLabel = document.getElementById("csscode");
 
 function changeBackground(color1, color2) {
   body.style.background = "linear-gradient(to right, " + color1.value + " , " + color2.value + ")";
-  // card.style.background = "linear-gradient(to left, " + color1.value + " , " + color2.value + ")";
   cssLabel.innerHTML = "CSS: linear-gradient(to right," + color1.value + "," + color2.value + ");";
 }
 
